@@ -161,9 +161,9 @@ doc.html(`
                         <option value="HSQ">HSQ</option>
                       </select>
                     </span>
-                    <span><input name="freq" inputmode="decimal" type="number" min="20" max="20000" step="1" value="0" onclick="this.focus();this.select()"></input></span>
-                    <span><input name="gain" inputmode="text" type="number" min="-40" max="40" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
-                    <span><input name="q" inputmode="decimal" type="number" min="0" max="10" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="freq" type="number" min="20" max="20000" step="1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="gain" type="number" min="-40" max="40" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="q" type="number" min="0" max="10" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
                 </div>
               </div>
               <div class="filters-button">
@@ -173,8 +173,8 @@ doc.html(`
               </div>
               <div class="settings-row">
                 <span>AutoEQ Range</span>
-                <span><input name="autoeq-from" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20"></input></span>
-                <span><input name="autoeq-to" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20000"></input></span>
+                <span><input name="autoeq-from" type="number" min="20" max="20000" step="1" value="20"></input></span>
+                <span><input name="autoeq-to" type="number" min="20" max="20000" step="1" value="20000"></input></span>
               </div>
               <div class="filters-button">
                 <button class="autoeq">AutoEQ</button>
@@ -276,11 +276,11 @@ yAxisObj.insert("text")
 let xvals = [2,3,4,5,6,8,10,15];
 let xAxis = d3.axisBottom(x)
     .tickSize(H+3).tickSizeOuter(0)
-    .tickValues(d3.merge([1,2,3].map(e=>xvals.map(m=>m*Math.pow(10,e)))).concat([20000]))
+    .tickValues(d3.merge([1,2,3].map(e=>xvals.map(m=>m*Math.pow(10,e)))).concat([250,20000]))
     .tickFormat(f => f>=1000 ? (f/1000)+"k" : f);
 
-let tickPattern = [3,0,0,1,0,0,2,0],
-    getTickType = i => i===0 || i===3*8 ? 4 : tickPattern[i%8],
+    let tickPattern = [3,0,0,1,0,0,1,0,3,0,0,1,0,0,1,0,3,0,0,1,0,0,1,0,0,3],
+    getTickType = i => i =  tickPattern[i],
     tickThickness = [2,4,4,9,15].map(t=>t/10);
 
 function fmtX(xa) {
@@ -290,10 +290,16 @@ function fmtX(xa) {
       .attr("y1", 10)
       .attr("y2", 312)
       .attr("stroke", "#333")
-      .attr("stroke-width", (_,i) => tickThickness[getTickType(i)]);
-    xa.selectAll(".tick text").filter((_,i) => tickPattern[i%8] === 0)
-      .attr("font-size","86%")
-      .attr("font-weight","lighter");
+      .attr("stroke-width", (_,i) => tickThickness[getTickType(i)])
+      .attr("opacity", "0.6");
+    xa.selectAll(".tick text").filter((_,i) => tickPattern[i] === 0)
+      .attr("font-size","92%")
+      .attr("font-weight","lighter")
+      .attr("opacity", "0.5");
+    xa.selectAll(".tick text").filter((_,i) => tickPattern[i] != 0)
+      //.attr("font-size","92%")
+      .attr("font-weight","lighter")
+      //.attr("opacity", ".9");
     xa.select(".tick:last-of-type text")
       .attr("dx",-5)
       .text("20kHz");
@@ -856,9 +862,9 @@ function getCurveColor(id, o) {
     let th = 2*Math.PI*i;
     i += Math.cos(th-0.3)/24 + Math.cos(6*th)/32;
     let s = Math.sin(2*Math.PI*i);
-    return d3.hcl(360*((i + t/p2)%1),
-                  88+30*(j%1 + 1.3*s - t/p3),
-                  36+22*(k%1 + 1.1*s + 6*t*(1-s)));
+  return d3.hcl(360*((i + t/p2)%1) + (o * 30), // hue varies with "o"
+                88+30*(j%1 + 1.3*s - t/p3),
+                55); //constant luminance
 }
 let getColor_AC = c => getCurveColor(c.p.id, c.o);
 let getColor_ph = (p,i) => getCurveColor(p.id, p.activeCurves[i].o);
@@ -1065,6 +1071,9 @@ function setBaseline(b, no_transition) {
     table.selectAll("tr").select(".button-baseline")
         .classed("selected", p=>p===baseline.p);
     
+    // Update user config
+    if (!userConfigApplicationActive) setUserConfig();
+    
     // Analytics event
     if (analyticsEnabled && b.p) { pushPhoneTag("baseline_set", b.p); }
 }
@@ -1144,6 +1153,9 @@ function updatePaths(trigger) {
     if (targetColorCustom) t.attr("stroke", targetColorCustom);
     if (ifURL && !trigger) addPhonesToUrl();
     if (stickyLabels) drawLabels();
+    
+    // Update user config
+    if (trigger === undefined) setUserConfig();
 }
 let colorBar = p=>'url(\'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 8"><path d="M0 8v-8h1c0.05 1.5,-0.3 3,-0.16 5s0.1 2,0.15 3z" fill="'+getBgColor(p)+'"/></svg>\')';
 function updatePhoneTable(trigger) {
@@ -1172,31 +1184,27 @@ function updatePhoneTable(trigger) {
         .attrs({type:"number",step:"any",value:0})
         .property("value", p=>p.offset)
         .on("change input",function(p){ setOffset(p, +this.value); });
-    if (exportableGraphs) {
-        td().attr("class","button button-export")
-            .attr("title", "Export graph")
-            .on("click", function(p) {
-            let phoneName = p.fullName,
-                channels = p.rawChannels,
-                exportContainer = document.querySelector('body');
+    td().attr("class","button button-export")
+        .attr("title", "Export graph")
+        .on("click", function(p) {
+        let phoneName = p.fullName,
+            channels = p.rawChannels,
+            exportContainer = document.querySelector('body');
 
-            channels.forEach(function(channel, i) {
-                let channelNum = i + 1,
-                    text = channel.reduce((acc, c) => {
-                        return acc.concat([Object.values(c).join('\t')]);
-                    }, []).join('\n'),
-                    blob = new Blob([text], { type: 'text/plain' }),
-                    url = URL.createObjectURL(blob),
-                    exportLink = document.createElement('a');
+        channels.forEach(function(channel, i) {
+            let channelNum = i + 1,
+                text = channel.join('\n');
+                blob = new Blob([text], { type: 'text/plain' }),
+                url = URL.createObjectURL(blob),
+                exportLink = document.createElement('a');
 
-                exportLink.download = phoneName + ' [' + channelNum + ']' + '.txt';
-                exportLink.href = url;
-                exportContainer.appendChild(exportLink);
-                exportLink.click();
-                exportLink.remove();
-            });
+            exportLink.download = phoneName + ' [' + channelNum + ']' + '.txt';
+            exportLink.href = url;
+            exportContainer.appendChild(exportLink);
+            exportLink.click();
+            exportLink.remove();
         });
-    }
+    });
     td().attr("class","button button-baseline")
         .attr("title", "Set as baseline")
         .html("<svg viewBox='-170 -120 340 240'><use xlink:href='#baseline-icon'></use></svg>")
@@ -1215,6 +1223,9 @@ function updatePhoneTable(trigger) {
             clearLabels();
             drawLabels();
         }
+        
+        // Update user config
+        if (!userConfigApplicationActive) setUserConfig();
     }
     td().attr("class","button hideIcon")
         .attr("title", "Hide graph")
@@ -2834,17 +2845,16 @@ function addHeader() {
         headerLogoSpan = document.createElement("span"),
         linksList = document.createElement("ul");
     
-        headerButton.className = "header-button";
-        headerLogoElem.className = "logo";
-        headerLogoLink.setAttribute('href', site_url);
-        headerLogoLink.setAttribute('style', "display:inline; white-space:nowrap;");
-        // headerLogoSpan.innerText = headerLogoText;
-        headerLogoSpan.setAttribute('style', "position:absolute; color: #ffffff;");
-        // headerLogoLink.append(headerLogoSpan);
+    headerButton.className = "header-button";
+    headerLogoElem.className = "logo";
+    headerLogoLink.setAttribute('href', site_url);
+    if (headerLogoText) {
+        headerLogoSpan.innerText = headerLogoText;
+        headerLogoLink.append(headerLogoSpan);
+    } else if (headerLogoImgUrl) {
         headerLogoImg.setAttribute("src", headerLogoImgUrl);
-        headerLogoImg.setAttribute('style', "width:50%; margin-left: -15%; fill: #ffffff;");
         headerLogoLink.append(headerLogoImg);
-    
+    }
     
     altHeaderElem.append(headerButton);
     headerLogoElem.append(headerLogoLink);
@@ -3220,10 +3230,7 @@ if ( expandable && accessDocumentTop ) { toggleExpandCollapse(); }
 
 // Update user config for target + baseline
 function setUserConfig() {
-    let urlObj = new URL(document.URL),
-        pathClean = urlObj.pathname.replace(/\W/g, ""),
-        configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
-        configJson = {
+    let configJson = {
             "phones": [],
             "normalMode": (norm_sel === 1) ? "Hz" : "dB",
             "normalValue": (norm_sel === 1) ? norm_fr : norm_phon
@@ -3251,79 +3258,64 @@ function setUserConfig() {
         }
     });
     
-    localStorage.setItem("userConfig" + configName, JSON.stringify(configJson));
+    localStorage.setItem("userConfig", JSON.stringify(configJson));
 }
 
 // Insert user config phones to inits
 function userConfigAppendInits(initReq) {
-    if (targetRestoreLastUsed) {
-        let urlObj = new URL(document.URL),
-            pathClean = urlObj.pathname.replace(/\W/g, ""),
-            configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
-            configJson = JSON.parse(localStorage.getItem("userConfig" + configName)),
-            configNumOfPhones = configJson ? configJson.phones.length : 0;
-
-        if (configJson && configNumOfPhones) {
-            initReq.slice(0).forEach(function(item) {
-                if (item.endsWith(' Target')) {
-                    initReq.splice(initReq.indexOf(item), 1);
-                }
-            });
-
-            configJson.phones.forEach(function(phone) {
-                if (!initReq.includes(phone.fileName)) {
-                    initReq.push(phone.fileName);
-                }
-            });
-        }
+    let configJson = JSON.parse(localStorage.getItem("userConfig"));
+    if (configJson) {
+        initReq.forEach(function(req, i) {
+            if (req.endsWith(' Target')) {
+                initReq.splice(i, 1);
+            }
+        });
+        
+        configJson.phones.forEach(function(phone) {
+            if (!initReq.includes(phone.fileName)) {
+                initReq.push(phone.fileName);
+            }
+        });
     }
 }
 
 // Apply baseline and hide settings
 function userConfigApplyViewSettings(phoneInTable) {
-    if (targetRestoreLastUsed) {
-        userConfigApplicationActive = 1;
+    userConfigApplicationActive = 1;
+    
+    let configJson = JSON.parse(localStorage.getItem("userConfig"));
 
-        let urlObj = new URL(document.URL),
-            pathClean = urlObj.pathname.replace(/\W/g, ""),
-            configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
-            configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
+    if (configJson) {
+        let phone = configJson.phones.find(item => item.fileName === phoneInTable);
+        
+        if (typeof phone !== "undefined") {
+            let row = document.querySelector("tr[data-filename='"+ phone.fileName +"']"),
+                hideButton  = row.querySelector("td.hideIcon"),
+                baselineButton  = row.querySelector("td.button-baseline"),
+                pinButton = row.querySelector("td.button-pin");
 
-        if (configJson) {
-            let phone = configJson.phones.find(item => item.fileName === phoneInTable);
-
-            if (typeof phone !== "undefined") {
-                let row = document.querySelector("tr[data-filename='"+ phone.fileName +"']"),
-                    hideButton  = row.querySelector("td.hideIcon"),
-                    baselineButton  = row.querySelector("td.button-baseline"),
-                    pinButton = row.querySelector("td.button-pin");
-
-                if (phone.isHidden && !hideButton.classList.contains("selected")) {
-                    hideButton.click();
-                }
-
-                if (phone.isBaseline && !baselineButton.classList.contains("selected")) {
-                    baselineButton.click();
-                }
-
-                if (phone.isPinned && pinButton.getAttribute('data-pinned') !== "true") {
-                    pinButton.click();
-                }
+            if (phone.isHidden && !hideButton.classList.contains("selected")) {
+                hideButton.click();
+            }
+            
+            if (phone.isBaseline && !baselineButton.classList.contains("selected")) {
+                baselineButton.click();
+            }
+            
+            if (phone.isPinned && pinButton.getAttribute('data-pinned') !== "true") {
+                pinButton.click();
             }
         }
-
-        userConfigApplicationActive = 0;
     }
+    
+    userConfigApplicationActive = 0;
 };
 
 // Apply normalization config
 function userConfigApplyNormalization() {
     userConfigApplicationActive = 1;
     
-    let urlObj = new URL(document.URL),
-        pathClean = urlObj.pathname.replace(/\W/g, ""),
-        configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
-        configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
+    let configJson = localStorage.getItem("userConfig") ? JSON.parse(localStorage.getItem("userConfig")) : 0;
     
     if ( configJson && configJson.normalMode === "Hz" ) {
         document.querySelector("input#norm-fr").value = configJson.normalValue;

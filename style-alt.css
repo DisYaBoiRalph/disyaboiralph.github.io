@@ -1071,12 +1071,10 @@ div.extra-panel select {
     position: relative;
     
     padding: 10px 0;
-    margin: 0;
     
     background-color: transparent;
     border: none;
     
-    color: var(--font-color-primary);
     font-family: var(--font-family-secondary);
     font-size: 11px;
     line-height: 1em;
@@ -1123,13 +1121,18 @@ div.extra-panel > div.extra-eq > div.select-eq-phone > select {
     
     border: 1px solid var(--background-color-contrast-more);
     border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    
+    border: 1px solid var(--background-color-contrast-more);
+    border-radius: 6px;
 }
 
 div.extra-panel > div.extra-eq > div.filters-header > span,
 div.extra-panel > div.extra-eq > div.filters > div.filter > span {
     flex: 25% 1 1;
-    display: flex;
-    align-items: center;
+    display: inline-block;
 }
 
 div.extra-panel > div.extra-eq > div.filters > div.filter > span > input[type='checkbox'] {
