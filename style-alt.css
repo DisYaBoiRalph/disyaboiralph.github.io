@@ -148,16 +148,8 @@ g.dBScaler rect[fill="#bbb"] {
     fill: var(--background-color-graph);
 }
 
-svg#fr-graph > g > image {
-    filter: var(--svg-filter);
-}
-
 svg#fr-graph rect {
     pointer-events: all;
-}
-
-g.inspector rect {
-    pointer-events: none !important;
 }
 
 text.insp_dB {
@@ -332,6 +324,7 @@ header.header {
     align-items: flex-start;
     
     box-sizing: border-box;
+    flex: 48px 0 0;
     
     background-color: var(--header-color);
 }
@@ -414,6 +407,10 @@ ul.header-links li {
     white-space: nowrap;
 }
 
+/* ul.header-links li + li {
+    margin-left: 32px;
+} */
+
 ul.header-links a {
     display: flex;
     align-items: center;
@@ -489,69 +486,6 @@ div.tools {
     overflow-y: hidden;
 }
 
-button#yscalebtn {
-    position: relative;
-    
-    box-sizing: border-box;
-    padding: 11px 16px;
-    margin: 0;
-    overflow: hidden;
-    
-    background-color: var(--background-color);
-    border: 1px solid var(--background-color-contrast-more) !important;
-    border: none;
-    border-radius: 6px;
-    
-    color: var(--accent-color-contrast);
-    font-family: var(--font-primary);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1em;
-    
-    white-space: nowrap;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  
-  button#yscalebtn:active {
-    box-sizing: border-box;
-    background-color: var(--accent-color) !important;
-    border-color: var(--accent-color) !important;
-    
-    color: var(--font-color-secondary);
-  }
-  
-  
-  button#yscalebtn {
-    margin-left: 6px;
-  }
-  
-  /** y scaler **/
-  div.yscaler {
-    order: 1;
-    
-    display: flex;
-    align-items: center;
-    
-    padding: 0 16px;
-    border-left: 1px solid var(--background-color-contrast-more);
-  }
-  
-  div.yscaler > span {
-    margin-right: 10px;
-    color: var(--background-color-contrast-more);
-    font-family: var(--font-secondary);
-    font-size: 11px;
-    line-height: 1em;
-    text-transform: uppercase;
-  }
-  
-  div.yscaler > div {
-    display: flex;
-    align-items: center;
-  }
-
 /* Expand / Collapse */
 
 div.expand-collapse {
@@ -578,7 +512,7 @@ button#expand-collapse {
     
     display: block;
     width: 36px;
-    height: 36px;
+    min-height: 36px;
     padding: 0;
     
     background-color: var(--background-color);
@@ -940,7 +874,6 @@ div.miscTools button,
 div.extra-panel button {
     order: 1;
     
-    flex: auto 1 1;
     padding: 11px 8px;
     margin: 0;
     
@@ -958,71 +891,6 @@ div.extra-panel button {
     white-space: nowrap;
     cursor: pointer;
     outline: none;
-}
-
-div.filters-button {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0 4px;
-}
-
-div.extra-panel button.sort-filters,
-div.extra-panel button.readme {
-    flex: calc(50% - 2px) 0 0;
-    border-color: var(--background-color-contrast) !important;
-}
-
-div.extra-panel button.import-filters,
-div.extra-panel button.export-filters {
-    position: relative;
-    
-    flex: 100% 0 0;
-}
-
-button.export-graphic-filters {
-    border-color: var(--background-color-contrast) !important;
-}
-
-button.export-filters:after {
-    content: '';
-    
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: '';
-    box-sizing: border-box;
-    display: block;
-    width: 34px;
-    height: 34px;
-    background-color: var(--background-color-contrast-more);
-    pointer-events: none;
-    
-    mask: var(--icon-download);
-    -webkit-mask: var(--icon-download);
-    mask-size: 20px;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    -webkit-mask-size: 20px;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-}
-
-div.settings-row {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-div.settings-row > span {
-    flex: calc(25% - 4px) 0 0;
-}
-
-div.settings-row > span:nth-child(1) {
-    flex: auto 1 1;
-    
-    font-size: 12px;
-    line-height: 1em;
-    text-align: left;
 }
 
 div.miscTools button span {
@@ -2170,8 +2038,6 @@ div.scroll {
     
     overflow-y: auto;
     overflow-x: hidden;
-    
-    scroll-behavior: smooth;
 }
 
 /* List selected styles */
@@ -3292,10 +3158,29 @@ Responsive styles *****/
     /*****
     Alt header mobile *****/
 
-    button.header-button {
+    header.header:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+
+        content: '';
         box-sizing: border-box;
         display: block;
-        flex: 36px 0 0;
+        width: 36px;
+        height: 36px;
+
+        background-color: var(--background-color);
+        border: 1px solid var(--background-color-contrast-more);
+        border-radius: 6px;
+        cursor: pointer;
+        display: none;
+    }
+
+    button.header-button {
+        content: '';
+        box-sizing: border-box;
+        display: block;
+        width: 36px;
         height: 36px;
         margin: 0 0 0 6px;
 
