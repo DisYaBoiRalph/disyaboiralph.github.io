@@ -208,6 +208,10 @@ const linkSets = [
                 url: "/Lestat"
             },
             {
+                name: "Migs",
+                url: "/Migs"
+            },
+            {
                 name: "Nota",
                 url: "/Nota"
             },
