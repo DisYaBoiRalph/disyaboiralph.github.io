@@ -317,6 +317,10 @@ let headerLogoText = "",
     {
         name: "Squig.link",
         url: "https://therollo9.squig.link/"
+    },
+    {
+        name: "EQ Labs",
+        url: "/EQLabs"
     }
 ];
 
