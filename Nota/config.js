@@ -16,7 +16,7 @@ const init_phones = ["Generic JM-1 Target", "Nightjar Duality S-"],             
       site_url = '../graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
-      watermark_image_url = "",   // Optional. If image file is in same directory as config, can be just the filename
+      watermark_image_url = "nota.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "Nota Graph Tool",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -75,7 +75,7 @@ function watermark(svg) {
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-128, y:-128, width:256, height:256, "xlink:href":watermark_image_url});
+            .attrs({x:-150, y:-150  , width:300, height:300, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {

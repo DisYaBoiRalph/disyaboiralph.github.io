@@ -1,4 +1,10 @@
 # [Access to the graph tool.](graph)
+# Updates (February 19, 2025 - Received from Friends)
+Added IEMs:
+- Singapore Airlines Bullets
+
+Added headphones: 
+- Denon AH-D600 (driver swapped)
 # Updates (November 22, 2024 - November HiFi 2024 Haul)
 Added IEMs:
 - FATFreq BabyFreq

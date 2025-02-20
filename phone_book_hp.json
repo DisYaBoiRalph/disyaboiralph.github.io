@@ -122,6 +122,15 @@
         ]
     },
     {
+        "name": "Denon",
+        "phones": [
+            {
+                "name": "AH-D600 (driver swapped)",
+                "file": "Denon AH-D600 driver swapped"
+            }
+        ]
+    },
+    {
         "name": "Focal",
         "phones": [
             {
@@ -270,10 +279,12 @@
             {
                 "name": "HD560s",
                 "file": [
-                    "Sennheiser HD560s"
+                    "Sennheiser HD560s",
+                    "Sennheiser HD560s S2"
                 ],
                 "suffix": [
-                    "S1"
+                    "S1",
+                    "S2"
                 ],
                 "shopLink": "",
                 "reviewScore": "6.86/10"

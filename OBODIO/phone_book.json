@@ -1,36 +1,36 @@
 [
 	{
-		"name": "7th Acoustics",
-		"phones": [
+		"name":"7th Acoustics",
+		"phones":[
 			{
-				"name": "Supernova",
-				"file": "supernova"
+				"name":"Supernova",
+				"file":"supernova"
 			}
 		]
 	},
 	{
-		"name": "Aful",
-		"phones": [
+		"name":"Aful",
+		"phones":[
 			{
-				"name": "Explorer",
-				"file": "explorer"
+				"name":"Explorer",
+				"file":"explorer"
 			},
 			{
-				"name": "P5+2",
-				"file": "ap52"
+				"name":"P5+2",
+				"file":"ap52"
 			}
 		]
 	},
 	{
-		"name": "CCA",
-		"phones": [
+		"name":"CCA",
+		"phones":[
 			{
 				"name": "CRA (2024)",
 				"file": "cra 2024"
 			},
 			{
-				"name": "CRA (OG)",
-				"file": "CRA OG"
+				"name":"CRA (OG)",
+				"file":"CRA OG"
 			},
 			{
 				"name": "Duo",
@@ -53,16 +53,16 @@
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
-				]
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"					
+						]
 			},
 			{
 				"name": "Pianist",
 				"file": "pianist"
-			},
+			},			
 			{
 				"name": "Polaris",
 				"file": [
@@ -80,11 +80,11 @@
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
-				]
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"					
+						]
 			},
 			{
 				"name": "Rhapsody",
@@ -97,17 +97,17 @@
 					"rhap UUUD",
 					"rhap UUDD",
 					"rhap UUDD"
-				],
+			],
 				"suffix": [
 					"DDDD",
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
-				]
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"					
+			]
 			},
 			{
 				"name": "Trio",
@@ -120,38 +120,38 @@
 					"trio uuud",
 					"trio uudd",
 					"trio uddd"
-				],
+			],
 				"suffix": [
 					"DDDD",
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
-				]
-			}
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"					
+			]
+			}						
 		]
 	},
 	{
 		"name": "Celest",
 		"phones": [
 			{
-				"name": "Ignite X Beast",
-				"file": "ignite x beast"
+				"name":"Ignite X Beast",
+				"file":"ignite x beast"
 			},
 			{
-				"name": "Pandamon",
-				"file": "panda"
+				"name":"Pandamon",
+				"file":"panda"
 			},
 			{
 				"name": "Phoenixcall",
 				"file": "phxcall"
 			},
 			{
-				"name": "Wyvern Abyss (1 side)",
-				"file": "wyvern abyss1"
+				"name":"Wyvern Abyss (1 side)",
+				"file":"wyvern abyss1"
 			},
 			{
 				"name": "Wyvern Pro",
@@ -161,18 +161,18 @@
 				"name": "Wyvern Qing",
 				"file": "Wyvern Qing"
 			}
-		]
+				]
 	},
 	{
-		"name": "Creative",
-		"phones": [
+		"name":"Creative",
+		"phones":[
 			{
-				"name": "Aurvana Ace 2",
-				"file": [
+				"name":"Aurvana Ace 2",
+				"file":[
 					"ace 2 stock",
 					"ace 2 anc"
 				],
-				"suffix": [
+				"suffix":[
 					"Normal Mode",
 					"Adaptive ANC"
 				]
@@ -180,20 +180,20 @@
 		]
 	},
 	{
-		"name": "Dita",
-		"phones": [
+		"name":"Dita",
+		"phones":[
 			{
-				"name": "Project M",
-				"file": "projectm"
+				"name":"Project M",
+				"file":"projectm"
 			}
 		]
 	},
 	{
 		"name": "Dunu",
-		"phones": [
+		"phones":[
 			{
-				"name": "DK3001BD",
-				"file": "dk3001bd"
+				"name":"DK3001BD",
+				"file":"dk3001bd"
 			},
 			{
 				"name": "x Gizaudio DaVinci",
@@ -206,15 +206,15 @@
 					"falcuti gold ss",
 					"falcuti stock cl"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock/Red Ring",
 					"Gold/Blue Ring",
 					"Stock/Red Ring (Clarion)"
 				]
 			},
 			{
-				"name": "Kima 2",
-				"file": "kima 2"
+				"name":"Kima 2",
+				"file":"kima 2"
 			},
 			{
 				"name": "Titan S2",
@@ -223,39 +223,39 @@
 		]
 	},
 	{
-		"name": "Elysian",
-		"phones": [
+		"name":"Elysian",
+		"phones":[
 			{
-				"name": "Diva 2023",
-				"file": [
+				"name":"Diva 2023",
+				"file":[
 					"diva red",
 					"diva white",
 					"diva blue"
 				],
-				"suffix": [
+				"suffix":[
 					"Red Switch",
 					"White Switch",
 					"Blue Switch"
 				]
 			},
 			{
-				"name": "Pilgrim :(",
-				"file": "pilgrim jbc"
+				"name":"Pilgrim :(",
+				"file":"pilgrim jbc"
 			}
 		]
 	},
 	{
-		"name": "Empire Ears",
-		"phones": [
+		"name":"Empire Ears",
+		"phones":[
 			{
-				"name": "Merlin",
-				"file": "ee merlin"
+				"name":"Merlin",
+				"file":"ee merlin"
 			}
 		]
 	},
 	{
-		"name": "EPZ",
-		"phones": [
+		"name":"EPZ",
+		"phones":[
 			{
 				"name": "K1",
 				"file": "K1"
@@ -266,42 +266,42 @@
 			},
 			{
 				"name": "Q5",
-				"file": [
+				"file":[
 					"q5",
 					"q5 st"
 				],
-				"suffix": [
+				"suffix":[
 					"(Clarion)",
 					"(Stock Tips)"
 				]
 			},
 			{
-				"name": "Q5 Pro",
-				"file": "q5 pro"
-			}
-		]
+				"name":"Q5 Pro",
+				"file":"q5 pro"
+			}	
+				]
 	},
 	{
-		"name": "Etymotic",
-		"phones": [
+		"name":"Etymotic",
+		"phones":[
 			{
-				"name": "ER3SE",
-				"file": "er3se"
+				"name":"ER3SE",
+				"file":"er3se"
 			}
 		]
 	},
 	{
-		"name": "Final Audio",
-		"phones": [
+		"name":"Final Audio",
+		"phones":[
 			{
-				"name": "E500",
-				"file": "e500"
+				"name":"E500",
+				"file":"e500"
 			}
 		]
 	},
 	{
-		"name": "HiBy",
-		"phones": [
+		"name":"HiBy",
+		"phones":[
 			{
 				"name": "Project Ace",
 				"file": [
@@ -326,7 +326,7 @@
 					"XENOBIE",
 					"0.11 xenobie"
 				],
-				"suffix": [
+				"suffix":[
 					"Firmware 0.11",
 					"Firmware 0.8",
 					"Firmware 0.6",
@@ -335,13 +335,23 @@
 				]
 			},
 			{
-				"name": "Yacht 10",
-				"file": "yacht"
+				"name":"Yacht 10",
+				"file":"yacht"
+			}
+				
+		]
+	},
+	{
+		"name":"Hisenior",
+		"phones":[
+			{
+				"name":"Mega5Est 7th Anniversary Edition",
+				"file":"mega5est 7th"
 			}
 		]
 	},
 	{
-		"name": "HZSound",
+		"name":"HZSound",
 		"phones": [
 			{
 				"name": "Heart Mirror",
@@ -355,7 +365,8 @@
 					"OB ODIO Modded",
 					"OB ODIO Modded 093024"
 				]
-			}
+
+			}	
 		]
 	},
 	{
@@ -387,47 +398,47 @@
 		]
 	},
 	{
-		"name": "INM Audio",
-		"phones": [
+		"name":"INM Audio",
+		"phones":[
 			{
-				"name": "INM1 Vanila",
-				"file": "INM1"
+				"name":"INM1 Vanila",
+				"file":"INM1"
 			},
 			{
-				"name": "INM8 Prestige",
-				"file": "INM8"
+				"name":"INM8 Prestige",
+				"file":"INM8"
 			},
 			{
-				"name": "INM X (prototype)",
-				"file": "INM11"
+				"name":"INM X (prototype)",
+				"file":"INM11"
 			}
 		]
 	},
 	{
-		"name": "Intuaura",
-		"phones": [
+		"name":"Intuaura",
+		"phones":[
 			{
-				"name": "Luna Plume",
-				"file": "luna 3.5mm"
+				"name":"Luna Plume",
+				"file":"luna 3.5mm"
 			},
 			{
-				"name": "Reference 2019",
-				"file": [
+				"name":"Reference 2019",
+				"file":[
 					"reference 2019 dsp",
 					"reference 2019 se"
 				],
-				"suffix": [
+				"suffix":[
 					"DSP",
 					"Single Ended"
 				]
 			},
 			{
-				"name": "View Splendor II",
-				"file": [
+				"name":"View Splendor II",
+				"file":[
 					"splendor ii dsp",
 					"splendor ii se"
 				],
-				"suffix": [
+				"suffix":[
 					"w/ Phantasm DSP",
 					"Single Ended"
 				]
@@ -435,37 +446,38 @@
 		]
 	},
 	{
-		"name": "KBEar",
-		"phones": [
+		"name":"KBEar",
+		"phones":[
 			{
-				"name": "Flash",
-				"file": "flash"
+				"name":"Flash",
+				"file":"flash"
 			},
 			{
 				"name": "KW1",
 				"file": "kw1"
 			},
 			{
-				"name": "Xuan Wu",
-				"file": "kbxw"
+				"name":"Xuan Wu",
+				"file":"kbxw"
+
 			}
 		]
 	},
 	{
 		"name": "Kefine",
-		"phones": [
+		"phones":[
 			{
 				"name": "Delci",
 				"file": "delci"
 			},
 			{
-				"name": "Klean",
-				"file": [
+				"name":"Klean",
+				"file":[
 					"klean silver",
 					"klean black",
 					"klean none"
 				],
-				"suffix": [
+				"suffix":[
 					"Silver Filter",
 					"Black Filter",
 					"No Filter"
@@ -474,58 +486,58 @@
 		]
 	},
 	{
-		"name": "Kiwi Ears",
-		"phones": [
+		"name":"Kiwi Ears",
+		"phones":[
 			{
-				"name": "Canta",
-				"file": "canta m2"
+				"name":"Canta",
+				"file":"canta m2"
 			},
 			{
-				"name": "KE4",
-				"file": [
+				"name":"KE4",
+				"file":[
 					"ke4 ke",
 					"ke4 cl",
 					"ke4 sbc"
 				],
-				"suffix": [
+				"suffix":[
 					"Kiwi Ears Flex Eartips",
 					"TRI Clarion Eartips",
 					"Stock Black Eartips (Kiwi Ears Canta)"
 				]
 			},
 			{
-				"name": "Quartet",
-				"file": [
+				"name":"Quartet",
+				"file":[
 					"quatro dd",
 					"quatro du",
 					"quatro ud",
-					"quatro uu"
-				],
-				"suffix": [
-					"DD",
-					"DU",
-					"UD",
-					"UU"
+					"quatro uu"	
+					],
+					"suffix": [
+						"DD",
+						"DU",
+						"UD",
+						"UU"					
 				]
 			}
-		]
+		]		
 	},
 	{
-		"name": "Kotori Audio",
+		"name":"Kotori Audio",
 		"phones": [
 			{
-				"name": "Vampire",
-				"file": "vamp"
+				"name":"Vampire",
+				"file":"vamp"
 			},
 			{
-				"name": "Zephyr",
-				"file": "zephyr"
+				"name":"Zephyr",
+				"file":"zephyr"
 			}
 		]
 	},
 	{
-		"name": "KZ",
-		"phones": [
+		"name":"KZ",
+		"phones":[
 			{
 				"name": "AS24 Pro",
 				"file": [
@@ -538,24 +550,24 @@
 					"as24pro UUUD",
 					"as24pro UUUU"
 				],
-				"suffix": [
+				"suffix":[
 					"DDDD",
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UDDD",
-					"UUDD",
-					"UUUD",
-					"UUUU"
+					"UDDD",	
+					"UUDD",	
+					"UUUD",	
+					"UUUU"	
 				]
 			},
 			{
-				"name": "Carol TWS",
-				"file": [
+				"name":"Carol TWS",
+				"file":[
 					"carol stock",
 					"carol anc"
 				],
-				"suffix": [
+				"suffix":[
 					"Standard Mode",
 					"ANC Mode"
 				]
@@ -577,15 +589,15 @@
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"					
 				]
 			},
 			{
-				"name": "Dawn",
-				"file": "dawn"
+				"name":"Dawn",
+				"file":"dawn"
 			},
 			{
 				"name": "D-Fi (switches)",
@@ -599,19 +611,24 @@
 					"dfi uudd",
 					"dfi uddd",
 					"dfi 300mesh DDDD",
-					"dfi 300x2mesh DDDD"
+					"dfi 300x2mesh DDDD",
+					"d-fi 45",
+					"d-fi 5_4 UUU"
+
 				],
-				"suffix": [
+				"suffix":[
 					"DDDD",
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
 					"UDDD",
 					"DDDD 300 Mesh",
-					"DDDD 300x2 Mesh"
+					"DDDD 300x2 Mesh",
+					"Stack 300x4x5 Mesh",
+					"Stack 300x4x5 Mesh UUUU"	
 				]
 			},
 			{
@@ -628,23 +645,43 @@
 			},
 			{
 				"name": "EDX Pro X",
-				"file": "edx pro x"
+				"file": [
+						"edx pro x",
+						"edx px an01"
+				],
+				"suffix":[
+					"Stock",
+					"on AN01 (ANC)"
+				]
 			},
 			{
 				"name": "Libra Balanced",
 				"file": "libra"
 			},
 			{
-				"name": "PRX",
-				"file": "prx"
+				"name":"PRX",
+				"file":"prx"
 			},
 			{
 				"name": "PR3",
-				"file": "pr3"
+				"file": [
+					 "pr3",
+					 "pr3 an01 anc",
+					 "pr3 an01 trans",
+					 "pr3 fatfreq imp",
+					 "pr3 avani"
+				],
+				"suffix":[
+					"Stock",
+					"on AN01 (ANC)",
+					"on AN01 (Transparency)",
+					"with FatFreq Impedance Adaptor (15ohms)",
+					"measured with VE Avani"
+				]
 			},
 			{
-				"name": "Saga Bass",
-				"file": "saga bass"
+				"name":"Saga Bass",
+				"file":"saga bass"
 			},
 			{
 				"name": "Symphony",
@@ -652,7 +689,7 @@
 			},
 			{
 				"name": "Vader",
-				"file": [
+				"file":[
 					"vader DDDD",
 					"vader DDDU",
 					"vader DDUU",
@@ -662,7 +699,7 @@
 					"vader UUDD",
 					"vader UDDD"
 				],
-				"suffix": [
+				"suffix":[
 					"DDDD",
 					"DDDU",
 					"DDUU",
@@ -674,12 +711,12 @@
 				]
 			},
 			{
-				"name": "Xtra TWS",
-				"file": [
+				"name":"Xtra TWS",
+				"file":[
 					"xtra stock",
 					"xtra anc"
 				],
-				"suffix": [
+				"suffix":[
 					"Standard Mode",
 					"ANC Mode"
 				]
@@ -704,27 +741,27 @@
 					"zs10pro2 UUDD",
 					"zs10pro2 UDDD"
 				],
-				"suffix": [
+				"suffix":[
 					"DDDD",
 					"DDDU",
 					"DDUU",
 					"DUUU",
-					"UUUU",
-					"UUUD",
-					"UUDD",
-					"UDDD"
+					"UUUU",	
+					"UUUD",	
+					"UUDD",	
+					"UDDD"						
 				]
 			},
 			{
-				"name": "Zenith",
-				"file": [
+				"name":"Zenith",
+				"file":[
 					"zenith uuuu",
 					"zenith uuud",
 					"zenith uudd",
 					"zenith uddd",
 					"zenith dddd"
 				],
-				"suffix": [
+				"suffix":[
 					"UUUU",
 					"UUUD",
 					"UUDD",
@@ -732,23 +769,24 @@
 					"DDDD"
 				]
 			}
+			
 		]
 	},
 	{
-		"name": "Lafitear",
-		"phones": [
+		"name":"Lafitear",
+		"phones":[
 			{
-				"name": "LV-C",
-				"file": "lvc"
+				"name":"LV-C",
+				"file":"lvc"
 			}
 		]
 	},
 	{
-		"name": "Letshuoer",
-		"phones": [
+		"name":"Letshuoer",
+		"phones":[
 			{
-				"name": "Cadenza 12 (2025)",
-				"file": "lc12 2025"
+				"name":"Cadenza 12 (2025)",
+				"file":"lc12 2025"
 			},
 			{
 				"name": "D13",
@@ -768,39 +806,48 @@
 				"file": "s08"
 			},
 			{
-				"name": "S15",
-				"file": "s15"
+				"name":"S15",
+				"file":"s15"
 			}
 		]
 	},
 	{
-		"name": "Moondrop",
-		"phones": [
+		"name":"Maono",
+		"phones":[
 			{
-				"name": "Chu Spring",
-				"file": "Chu Spring"
-			},
-			{
-				"name": "Kato",
-				"file": "KATO"
-			},
-			{
-				"name": "SSR",
-				"file": "md ssr"
+				"name":"HM-25",
+				"file":"maono hm25"
 			}
 		]
 	},
 	{
-		"name": "Moritz",
-		"phones": [
+		"name":"Moondrop",
+		"phones":[
 			{
-				"name": "Paradise",
-				"file": [
+				"name":"Chu Spring",
+				"file":"Chu Spring"
+			},
+			{
+				"name":"Kato",
+				"file":"KATO"
+			},
+			{
+				"name":"SSR",
+				"file":"md ssr"
+			}
+		]
+	},
+	{
+		"name":"Moritz",
+		"phones":[
+			{
+				"name":"Paradise",
+				"file":[
 					"paradise natural",
 					"Paradise",
 					"paradise texture"
 				],
-				"suffix": [
+				"suffix":[
 					"Natural Mode (DUD)",
 					"Vocal Mode (DDU)",
 					"Texture (UDD)"
@@ -809,35 +856,35 @@
 		]
 	},
 	{
-		"name": "Muse HiFi",
-		"phones": [
+		"name":"Muse HiFi",
+		"phones":[
 			{
-				"name": "The East 6",
+				"name":"The East 6",
 				"file": [
 					"e6 black",
 					"e6 red"
 				],
-				"suffix": [
+				"suffix":[
 					"Black",
 					"Red"
+					]
+				}
 				]
-			}
-		]
 	},
 	{
-		"name": "ND",
-		"phones": [
+		"name":"ND",
+		"phones":[
 			{
-				"name": "001",
-				"file": "nd 001"
+				"name":"001",
+				"file":"nd 001"
 			},
 			{
-				"name": "Nice",
-				"file": "nd nice"
+				"name":"Nice",
+				"file":"nd nice"
 			},
 			{
-				"name": "X12",
-				"file": [
+				"name":"X12",
+				"file":[
 					"nd x12 DDD",
 					"nd x12 DDU",
 					"nd x12 DUU",
@@ -845,18 +892,18 @@
 					"nd x12 UUD",
 					"nd x12 UUU"
 				],
-				"suffix": [
-					"DDD",
-					"DDU",
-					"DUU",
-					"UDD",
-					"UUD",
-					"UUU"
-				]
+					"suffix": [
+						"DDD",
+						"DDU",
+						"DUU",
+						"UDD",
+						"UUD",
+						"UUU"
+					]
 			},
 			{
-				"name": "ZR",
-				"file": "nd zr"
+				"name":"ZR",
+				"file":"nd zr"
 			}
 		]
 	},
@@ -868,12 +915,12 @@
 				"file": "db2"
 			},
 			{
-				"name": "F1 Pro",
-				"file": "f1 pro"
+				"name":"F1 Pro",
+				"file":"f1 pro"
 			},
 			{
-				"name": "NX8",
-				"file": "nx8"
+				"name":"NX8",
+				"file":"nx8"
 			}
 		]
 	},
@@ -889,29 +936,30 @@
 				"file": "nm2+"
 			},
 			{
-				"name": "NM20",
-				"file": "nm20"
+				"name":"NM20",
+				"file":"nm20"
 			},
 			{
 				"name": "RA05",
 				"file": "ra05"
 			},
 			{
-				"name": "RA15",
-				"file": [
+				"name":"RA15",
+				"file":[
 					"ra15 s",
 					"ra15 g"
 				],
-				"suffix": [
+				"suffix":[
 					"Silver Nozzle",
 					"Gold Nozzle"
 				]
 			}
 		]
+		
 	},
 	{
 		"name": "Oriveti",
-		"phones": [
+		"phones":[
 			{
 				"name": "Dynabird",
 				"file": "dynabird"
@@ -919,24 +967,24 @@
 		]
 	},
 	{
-		"name": "QKZ",
-		"phones": [
+		"name":"QKZ",
+		"phones":[
 			{
-				"name": "x HBB",
+				"name":"x HBB",
 				"file": "qkzhbb"
 			},
 			{
-				"name": "x HBB Hades",
-				"file": "hades"
+				"name":"x HBB Hades",
+				"file":"hades"
 			}
 		]
 	},
 	{
-		"name": "Rose Technics",
-		"phones": [
+		"name":"Rose Technics",
+		"phones":[
 			{
-				"name": "QTX",
-				"file": "qtx"
+				"name":"QTX",
+				"file":"qtx"
 			},
 			{
 				"name": "QT9 MK3",
@@ -945,34 +993,34 @@
 		]
 	},
 	{
-		"name": "Salnotes (7hz)",
-		"phones": [
+		"name":"Salnotes (7hz)",
+		"phones":[
 			{
-				"name": "Zero 2",
-				"file": "SalZero 2"
+				"name":"Zero 2",
+				"file":"SalZero 2"
 			}
 		]
 	},
 	{
-		"name": "Sgor",
-		"phones": [
+		"name":"Sgor",
+		"phones":[
 			{
-				"name": "Luna",
-				"file": "sgluna"
+				"name":"Luna",
+				"file":"sgluna"
 			}
 		]
 	},
 	{
-		"name": "Simgot",
-		"phones": [
+		"name":"Simgot",
+		"phones":[
 			{
-				"name": "EA500",
-				"file": [
+				"name":"EA500",
+				"file":[
 					"ea500 rn",
 					"ea500 bn",
 					"ea500 dsp bn"
 				],
-				"suffix": [
+				"suffix":[
 					"Red Ring Nozzle",
 					"Black Ring Nozzle",
 					"with EW300 DSPs cable (Black Ring Nozzle)"
@@ -980,46 +1028,46 @@
 			},
 			{
 				"name": "EA500LM",
-				"file": [
+				"file":[
 					"ea500lm g",
 					"ea500lm r",
 					"ea500lm b"
 				],
-				"suffix": [
+				"suffix":[
 					"Gold Nozzle",
 					"Red Ring",
 					"Black Ring"
 				]
 			},
 			{
-				"name": "EA1000",
-				"file": [
+				"name":"EA1000",
+				"file":[
 					"ea1000 r",
 					"ea1000 b",
 					"ea1000 g"
 				],
-				"suffix": [
+				"suffix":[
 					"Red Ring",
 					"Black Ring",
 					"Gold Nozzle"
 				]
 			},
 			{
-				"name": "EA2000",
-				"file": "ea2000"
+				"name":"EA2000",
+				"file":"ea2000"
 			},
 			{
-				"name": "EM6L",
-				"file": "em6l"
+				"name":"EM6L",
+				"file":"em6l"
 			},
 			{
-				"name": "EW100P",
-				"file": [
+				"name":"EW100P",
+				"file":[
 					"ew100p",
 					"ew100p final e",
 					"ew100p kbear07"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock",
 					"Final E",
 					"KBear07"
@@ -1030,12 +1078,12 @@
 				"file": "ew100 dsp"
 			},
 			{
-				"name": "EW200",
-				"file": [
+				"name":"EW200",
+				"file":[
 					"ew200",
 					"ew200 dsp"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock",
 					"with EW300 DSPs cable"
 				]
@@ -1052,7 +1100,7 @@
 					"ew300 gg",
 					"ew300 gs"
 				],
-				"suffix": [
+				"suffix":[
 					"Gold Nozzle",
 					"Silver Nozzle",
 					"DSP Cable (Gold Nozzle)",
@@ -1060,33 +1108,64 @@
 				]
 			},
 			{
-				"name": "EW300 DSP",
+				"name":"EW300 DSP",
 				"file": [
 					"ew300 dsp g",
 					"ew300 dsp s",
 					"ew300 mg",
 					"ew300 ms"
 				],
-				"suffix": [
+				"suffix":[
 					"Gold Nozzle",
 					"Silver Nozzle",
 					"Analogue Cable (Gold Nozzle)",
 					"Analogue Cable (Silver nozzle)"
 				]
+				
+			}
+			
+		]
+	},
+	{
+		"name":"Softears",
+		"phones":[
+			{
+				"name":"Volume S",
+				"file":[
+					"volume s hi",
+					"volume s li",
+					"volume s k7 max values",
+					"volume s k7 min values",
+					"vsk6+6",
+					"vsk6-6",
+					"vsk12+12",
+					"vsk12-12"
+
+				],
+				"suffix":[
+					"High Impedance",
+					"Low Impedance",
+					"K7 EQ Max Values (+12 Bass, +6 Treble)",
+					"K7 EQ Min Values (-12 Bass, -6 Treble)",
+					"K7 EQ (0 Bass, +6 Treble)",
+					"K7 EQ (0 Bass, -6 Treble)",
+					"K7 EQ (+12 Bass, 0 Treble)",
+					"K7 EQ (-12 Bass, 0 Treble)"
+				]
 			}
 		]
 	},
 	{
-		"name": "Sound Rhyme",
-		"phones": [
+		"name":"Sound Rhyme",
+		"phones":[
 			{
-				"name": "SP01",
-				"file": [
+				"name":"SP01",
+				"file":[
 					"sp01 bl",
 					"sp01 c",
 					"sp01 r"
 				],
-				"suffix": [
+				"suffix":[
 					"Black Ring Nozzle",
 					"Clear Nozzle",
 					"Red Nozzle"
@@ -1096,7 +1175,7 @@
 	},
 	{
 		"name": "Sonic Memory",
-		"phones": [
+		"phones":[
 			{
 				"name": "SM1 Lite",
 				"file": "SM1 Lite S"
@@ -1105,37 +1184,40 @@
 	},
 	{
 		"name": "Tanchjim",
-		"phones": [
+		"phones":[
 			{
-				"name": "One",
-				"file": "one"
+			"name": "One",
+			"file": "one"
 			}
+
 		]
 	},
 	{
 		"name": "Tangzu",
 		"phones": [
 			{
-				"name": "Yu Xuan Ji",
-				"file": [
+				"name":"Yu Xuan Ji",
+				"file":[
 					"xuanji matte",
 					"xuanji",
-					"xuanji meshless"
+					"xuanji meshless",
+					"xuanji 700m"
 				],
-				"suffix": [
+				"suffix":[
 					"S1",
 					"S2",
-					"Meshless"
+					"Meshless",
+					"700 Mesh Filter"
 				]
 			},
 			{
 				"name": "Xuan NV",
-				"file": [
+				"file":[
 					"xuannv",
 					"xuanv hurl",
 					"xuan nv rev"
 				],
-				"suffix": [
+				"suffix":[
 					"S1",
 					"S2",
 					"S3 (Odo measured)"
@@ -1152,24 +1234,24 @@
 		]
 	},
 	{
-		"name": "Thieaudio",
-		"phones": [
+		"name":"Thieaudio",
+		"phones":[
 			{
-				"name": "Oracle MK1 (2024)",
-				"file": "oracle 1 2024"
+				"name":"Oracle MK1 (2024)",
+				"file":"oracle 1 2024"
 			},
 			{
-				"name": "Oracle MK3",
-				"file": "oracle3"
+				"name":"Oracle MK3",
+				"file":"oracle3"
 			}
 		]
 	},
-	{
-		"name": "Tin Hifi",
-		"phones": [
-			{
-				"name": "C0",
-				"file": "c0"
+    {
+        "name":   "Tin Hifi",
+        "phones": [
+            {
+				"name":"C0",
+				"file":"c0"
 			},
 			{
 				"name": "T3+ (preprod)",
@@ -1178,67 +1260,67 @@
 		]
 	},
 	{
-		"name": "TRI",
-		"phones": [
+		"name":"TRI",
+		"phones":[
 			{
-				"name": "Draco",
-				"file": "draco"
+				"name":"Draco",
+				"file":"draco"
 			}
 		]
 	},
-	{
-		"name": "Tripowin",
-		"phones": [
+    {
+        "name":   "Tripowin",
+        "phones": [
 			{
-				"name": "Picolo",
-				"file": "picolo"
+				"name":"Picolo",
+				"file":"picolo"
 			},
-			{
-				"name": "x HBB Kailua",
-				"file": "kailua"
+            {
+				"name":"x HBB Kailua",
+				"file":"kailua"
 			}
 		]
 	},
 	{
-		"name": "TRN",
-		"phones": [
+		"name":"TRN",
+		"phones":[
 			{
-				"name": "Conch",
-				"file": [
+				"name":"Conch",
+				"file":[
 					"conchblack",
 					"conchblue",
 					"conchred"
 				],
-				"suffix": [
+				"suffix":[
 					"Black",
 					"Blue",
 					"Red"
 				]
 			},
 			{
-				"name": "V10 Pro",
-				"file": "v10 pro"
+				"name":"V10 Pro",
+				"file":"v10 pro"
 			}
 		]
 	},
 	{
-		"name": "Truthear",
-		"phones": [
+		"name":"Truthear",
+		"phones":[
 			{
-				"name": "Hola",
-				"file": "Hola"
+				"name":"Hola",
+				"file":"Hola"
 			},
 			{
-				"name": "x Crinacle Zero Blue",
-				"file": "Truthear Zero"
+				"name":"x Crinacle Zero Blue",
+				"file":"Truthear Zero"
 			},
 			{
-				"name": "x Crinacle Zero RED",
-				"file": [
+				"name":"x Crinacle Zero RED",
+				"file":[
 					"Zero Red",
 					"Zero Red Bass+"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock",
 					"Bass+"
 				]
@@ -1247,15 +1329,15 @@
 	},
 	{
 		"name": "Twistura",
-		"phones": [
+		"phones":[
 			{
 				"name": "D-Major",
-				"file": [
+				"file":[
 					"dmaj stock",
 					"dmaj red",
 					"dmaj blue"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock Nozzle",
 					"Red Nozzle",
 					"Blue Nozzle"
@@ -1264,17 +1346,17 @@
 		]
 	},
 	{
-		"name": "Yanyin",
+		"name":"Yanyin",
 		"phones": [
 			{
-				"name": "Canon II",
-				"file": [
+				"name":"Canon II",
+				"file":[
 					"canon ii uu",
 					"canon ii dd",
 					"canon ii ud",
 					"canon ii du"
 				],
-				"suffix": [
+				"suffix":[
 					"UU",
 					"DD",
 					"UD",
@@ -1284,20 +1366,20 @@
 		]
 	},
 	{
-		"name": "Yongse",
-		"phones": [
+		"name":"Yongse",
+		"phones":[
 			{
-				"name": "YOLO",
-				"file": "yolo"
+				"name":"YOLO",
+				"file":"yolo"
 			}
 		]
 	},
 	{
-		"name": "Ziigaat",
-		"phones": [
+		"name":"Ziigaat",
+		"phones":[
 			{
-				"name": "Nuo",
-				"file": "nuo"
+				"name":"Nuo",
+				"file":"nuo"
 			}
 		]
 	},
@@ -1310,7 +1392,7 @@
 					"z4",
 					"z4 red"
 				],
-				"suffix": [
+				"suffix":[
 					"Stock",
 					"Red Ring Nozzle"
 				]
@@ -1318,12 +1400,13 @@
 		]
 	},
 	{
-		"name": "UK",
-		"phones": [
+		"name":"UK",
+		"phones":[
 			{
-				"name": "Prototype Ouranos",
-				"file": "protouranos"
+				"name":"Prototype Ouranos",
+				"file":"protouranos"
 			}
 		]
 	}
+	
 ]
