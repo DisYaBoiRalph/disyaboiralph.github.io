@@ -80,6 +80,15 @@
         ]
     },
     {
+        "name": "Epic Audio",
+        "phones": [
+            {
+                "name": "Enceph",
+                "file": "Epic Audio Enceph"
+            }
+        ]
+    },
+    {
         "name": "FATfreq",
         "phones": [
             {
@@ -152,6 +161,16 @@
         ]
     },
     {
+        "name": "Kiwi Ears",
+        "phones": [
+            {
+                "name": "Singolo",
+                "collab": "crinacle",
+                "file": "Kiwi Ears x crinacle Singolo"
+            }
+        ]
+    },
+    {
         "name": "Moondrop",
         "phones": [
             {
@@ -171,6 +190,24 @@
             {
                 "name": "Quark 2",
                 "file": "Moondrop Quark 2"
+            },
+            {
+                "name": "Robin",
+                "collab": "HSR",
+                "file": [
+                    "Moondrop Robin Standard",
+                    "Moondrop Robin Ultra Bass",
+                    "Moondrop Robin POP Style",
+                    "Moondrop Robin MOONDROP Classic",
+                    "Moondrop Robin Monitor"
+                ],
+                "suffix": [
+                    "(Standard Preset)",
+                    "(Ultra Bass Preset)",
+                    "(POP Style Preset)",
+                    "(MOONDROP Classic Preset)",
+                    "(Monitor Preset)"
+                ]
             }
         ]
     },
@@ -199,6 +236,10 @@
                     "(Blue Hour) Switch Up",
                     "(Blue Hour) Switch Up w/ impedance adapter"
                 ]
+            },
+            {
+                "name": "Singularity",
+                "file": "Nightjar Singularity"
             }
         ]
     },
@@ -209,6 +250,15 @@
                 "name": "Hades",
                 "collab": "HBB",
                 "file": "QKZ x HBB Hades"
+            }
+        ]
+    },
+    {
+        "name": "Softears",
+        "phones": [
+            {
+                "name": "Twilight",
+                "file": "Softears Twilight"
             }
         ]
     },
@@ -225,6 +275,10 @@
         "name": "Symphonium",
         "phones": [
             {
+                "name": "Helios",
+                "file": "Symphonium Helios"
+            },
+            {
                 "name": "Meteor",
                 "collab": "Nightjar Acoustics",
                 "file": [
@@ -235,12 +289,20 @@
                     "",
                     "w/ TRI Clarions"
                 ]
+            },
+            {
+                "name": "Titan",
+                "file": "Symphonium Titan"
             }
         ]
     },
     {
         "name": "Tanchjim",
         "phones": [
+            {
+                "name": "Bunny",
+                "file": "Tanchjim Bunny"
+            },
             {
                 "name": "4U",
                 "file": [
@@ -300,6 +362,11 @@
                     "(Polarity Swap, bass filter, and blocked vent) w/ stock tips",
                     "(Polarity Swap, bass filter, and blocked vent) w/ stock wide tips"
                 ]
+            },
+            {
+                "name": "Zero",
+                "collab": "crinacle",
+                "file": "Truthear Zero"
             },
             {
                 "name": "Zero:RED",
