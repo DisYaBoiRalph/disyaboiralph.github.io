@@ -46,6 +46,15 @@
         ]
     },
     {
+        "name": "Audiosense",
+        "phones": [
+            {
+                "name": "DT200",
+                "file": "Audiosense DT200"
+            }
+        ]
+    },
+    {
         "name": "Binary",
         "phones": [
             {
@@ -85,6 +94,15 @@
             {
                 "name": "Encephalorrhagia",
                 "file": "Epic Audio Enceph"
+            }
+        ]
+    },
+    {
+        "name": "EPZ",
+        "phones": [
+            {
+                "name": "P50",
+                "file": "EPZ P50"
             }
         ]
     },
@@ -163,6 +181,10 @@
     {
         "name": "Kiwi Ears",
         "phones": [
+            {
+                "name": "KE4",
+                "file": "Kiwi Ears KE4"
+            },
             {
                 "name": "Singolo",
                 "collab": "crinacle",
@@ -317,6 +339,10 @@
                     "(Natural)",
                     "(Monitoring)"
                 ]
+            },
+            {
+                "name": "Oxygen",
+                "file": "Tanchjim Oxygen"
             }
         ]
     },
