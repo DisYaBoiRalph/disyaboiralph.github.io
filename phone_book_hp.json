@@ -74,17 +74,6 @@
                 "file": "Beyerdynamic DT880 600 Ohm"
             },
             {
-                "name": "T90",
-                "file": [
-                    "Beyerdynamic T90",
-                    "Beyerdynamic T90 Leather"
-                ],
-                "suffix": [
-                    "",
-                    "w/ aftermarket leather pads"
-                ]
-            },
-            {
                 "name": "Tygr 300R",
                 "file": [
                     "Beyerdynamic Tygr 300R",
@@ -143,6 +132,20 @@
                 ],
                 "shopLink": "https://headphones.com/products/focal-clear-headphones",
                 "reviewScore": "7.20/10"
+            }
+        ]
+    },
+    {
+        "name": "Fostex",
+        "phones": [
+            {
+                "name": "T40RP MK2",
+                "file": [
+                    "Fostex T40RP MK2 aftermarket pads"
+                ],
+                "suffix": [
+                    "w/ aftermarket pads"
+                ]
             }
         ]
     },
