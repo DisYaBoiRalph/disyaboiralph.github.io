@@ -121,6 +121,16 @@
         ]
     },
     {
+        "name": "FATfreq",
+        "phones": [
+            {
+                "name": "Deuce",
+                "collab": "HBB",
+                "file": "FATFreq x HBB Deuce"
+            }
+        ]
+    },
+    {
         "name": "Fearless",
         "phones": [
             {
@@ -289,6 +299,15 @@
         ]
     },
     {
+        "name": "Sennheiser",
+        "phones": [
+            {
+                "name": "IE200",
+                "file": "Sennheiser IE200"
+            }
+        ]
+    },
+    {
         "name": "Simgot",
         "phones": [
             {
@@ -398,11 +417,35 @@
             },
             {
                 "name": "Hola",
-                "file": "Truthear Hola"
+                "file": [
+                    "Truthear Hola",
+                    "Truthear Hola S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ]
             },
             {
                 "name": "Nova",
                 "file": "Truthear Nova"
+            },
+            {
+                "name": "Zero",
+                "collab": "crinacle",
+                "file": "Truthear Zero"
+            },
+            {
+                "name": "Zero:Red",
+                "collab": "crinacle",
+                "file": [
+                    "Truthear x crinacle Zero Red",
+                    "Truthear x crinacle Zero Red Bass+"
+                ],
+                "suffix": [
+                    "",
+                    "(Bass+)"
+                ]
             }
         ]
     },
