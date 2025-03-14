@@ -252,6 +252,10 @@ let headerLogoText = "Nota Graph Tool",
     {
         name: "Fossy Graph Tool",
         url: "../graph.html"
+    },
+    {
+        name: "Source OI",
+        url: "https://docs.google.com/spreadsheets/d/1rXibrUPHNEi9dJjqseKhXAlfJqaGnX1ye4nXxAnay-M/edit?usp=sharing"
     }
 ];
 

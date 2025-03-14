@@ -260,16 +260,20 @@ let headerLogoText = "",
     headerLogoImgUrl = "fossy-logo-long.svg",
     headerLinks = [
     {
+        name: "Squig.link",
+        url: "https://therollo9.squig.link/headphones"
+    },
+    {
         name: "Ranking List",
         url: "https://docs.google.com/spreadsheets/d/12gYzaCKeFOki6aWa3t8clZwyyqY3JLS0U--ROE0Uw-A/edit?usp=share_link"
     },
     {
-        name: "Misc. Data",
-        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
+        name: "Source OI",
+        url: "https://docs.google.com/spreadsheets/d/1rXibrUPHNEi9dJjqseKhXAlfJqaGnX1ye4nXxAnay-M/edit?usp=sharing"
     },
     {
-        name: "Squig.link",
-        url: "https://therollo9.squig.link/headphones"
+        name: "Misc. Data",
+        url: "https://docs.google.com/spreadsheets/d/1VgCy0LiGyIfdHTKx4jtNQoLFO3MiWNlnUcjGb45h4w8/edit?usp=share_link"
     },
     {
         name: "EQ Labs",
