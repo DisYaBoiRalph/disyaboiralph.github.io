@@ -41,7 +41,7 @@ const targets = [
     { type: "Δ",                files:["Generic JM-1", "Generic ISO 11904-1 DF (711 Z)"] },
     { type: "Rollo",            files:["Preference", "Neutral", "Pleasant"] },
     { type: "Neutral",          files:["Diffuse Field", "Diffuse Field Unsmoothened", "Etymotic", "Free Field", "Innerfidelity ID"] },
-    { type: "Reviewer",         files:["IEF Neutral 2023", "IEF Neutral", "HBB"] },
+    { type: "Reviewer",         files:["IEF Preference 2025", "IEF Neutral 2023", "IEF Neutral", "HBB"] },
     { type: "Harman",           files:["Harman IE 2016", "Harman IE 2017v1", "Harman IE 2017v2", "Harman IE 2019v2"] },
     { type: "Preference",       files:["USound1V1", "USound1V1 Flat Bass", "Tork V5", "VDSF"] }
 ];

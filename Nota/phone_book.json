@@ -65,6 +65,26 @@
         ]
     },
     {
+        "name": "CrinEar",
+        "phones": [
+            {
+                "name": "Project Meta",
+                "file": [
+                    "CrinEar Project Meta SN420 Stock",
+                    "CrinEar Project Meta SN420 Foam",
+                    "CrinEar Project Meta SN434 Stock",
+                    "CrinEar Project Meta SN434 Foam"
+                ],
+                "suffix": [
+                    "(S/N: 420) w/ stock tips",
+                    "(S/N: 420) w/ foam tips",
+                    "(S/N: 434) w/ stock tips",
+                    "(S/N: 434) w/ foam tips"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Delta",
         "phones": [
             {
@@ -290,6 +310,22 @@
             {
                 "name": "WF-1000XM4",
                 "file": "Sony WF-1000XM4"
+            }
+        ]
+    },
+    {
+        "name": "Subtonic",
+        "phones": [
+            {
+                "name": "Storm",
+                "file": [
+                    "Subtonic Storm",
+                    "Subtonic Storm Propeller"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Penon ePro Propeller tips"
+                ]
             }
         ]
     },
