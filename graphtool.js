@@ -1963,9 +1963,6 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
         removePhone(p);
         return;
     }
-    if (p.isTarget) {
-        exclusive = false;
-    }
     if (addPhoneSet) {
         exclusive = false;
         if (!addPhoneLock) {
