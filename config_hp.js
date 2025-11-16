@@ -16,6 +16,7 @@ const init_phones = ["KB50xx DFHRTF Smoothed Target"],       // Optional. Which 
       site_url = 'graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                          // Optional. Watermark appears behind graphs
+      rig_description = "clone KB50xx",            // Optional. Labels the graph with a description of the rig used to make the measurement, e.g. "clone IEC 711"
       watermark_image_url = "fossy-logo.svg",       // Optional. If image file is in same directory as config, can be just the filename
       page_title = "Fossy Graph",                   // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for headphones",
@@ -24,12 +25,14 @@ const init_phones = ["KB50xx DFHRTF Smoothed Target"],       // Optional. Which 
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
-      darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
+      themingEnabled = true,                        // Enable user-toggleable themes (dark mode, contrast mode)
       targetDashed = true,                          // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
+      targetRestoreLastUsed = false,				// Restore user's last-used target settings on load
       labelsPosition = "bottom-left",               // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
-      analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
+      analyticsEnabled = false,                      // Enables Google Analytics 4 measurement of site usage
+      exportableGraphs = true,                      // Enables export graph button
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
@@ -41,7 +44,7 @@ const init_phones = ["KB50xx DFHRTF Smoothed Target"],       // Optional. Which 
 // Specify which targets to display
 const targets = [
     { type: "Neutral",  files:["KB50xx DFHRTF", "KB50xx DFHRTF Smoothed"] },
-    { type: "Harman",   files:["Harman 2013", "Harman 2015", "Harman 2018", "Harman Combined"] },
+    { type: "Harman",   files:["Harman 2013", "Harman 2015", "Harman 2018", "Harman Combined"] }
 ];
 
 // Haruto's Addons
@@ -90,6 +93,12 @@ function watermark(svg) {
     // .append("text")
     // .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
     // .text("danque62.github.io/graph");
+    
+    if ( rig_description ) {
+        wm.append("text")
+            .attrs({x:380, y:-134, "font-size":8, "text-anchor":"end", "class":"rig-description"})
+            .text("Measured on: " + rig_description);
+    }
 }
 
 
@@ -196,7 +205,40 @@ const linkSets = [
         ]
     },
     {
-        label: "IEM databases",
+        label: "Hosted databases",
+        links: [
+            {
+                name: "Brownie",
+                url: "/Brownie"
+            },
+            {
+                name: "Dreamscape",
+                url: "/Dreamscape"
+            },
+            {
+                name: "Lestat",
+                url: "/Lestat"
+            },
+            {
+                name: "Migs",
+                url: "/Migs"
+            },
+            {
+                name: "Nota",
+                url: "/Nota"
+            },
+            {
+                name: "OB ODIO",
+                url: "/OBODIO"
+            },
+            {
+                name: "SBG",
+                url: "/SBG"
+            }
+        ]
+    },
+    {
+        label: "Other IEM databases",
         links: [
             {
                 name: "In-Ear Fidelity",
@@ -211,12 +253,8 @@ const linkSets = [
                 url: "https://listener800.github.io/iems"
             },
             {
-                name: "Brownie Graph Tool",
-                url: "brownie.html"
-            },
-            {
-                name: "Sibug Graph Tool",
-                url: "sibug.html"
+                name: "Camille",
+                url: "https://graphtool.layer7.me/"
             },
             {
                 name: "Audio Discourse",
@@ -233,7 +271,7 @@ const linkSets = [
             {
                 name: "HypetheSonics",
                 url: "https://www.hypethesonics.com/iemdbc/"
-            },
+            }
         ]
     }
 ];
@@ -333,3 +371,8 @@ let tutorialDefinitions = [
         `
     }
 ]
+
+// Configure paths to extraEQ plugins here
+let extraEQplugins = [
+    //'./devicePEQ/plugin.js' // Path to one or more "extraEQ" plugins
+];

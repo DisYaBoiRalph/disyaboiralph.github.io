@@ -17,6 +17,7 @@ const init_phones = ["Generic JM-1 Target", "Nightjar Duality S-"],             
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                           // Optional. Watermark appears behind graphs
       watermark_image_url = "nota.png",   // Optional. If image file is in same directory as config, can be just the filename
+      rig_description = "clone IEC 711",            // Optional. Labels the graph with a description of the rig used to make the measurement, e.g. "clone IEC 711"
       page_title = "Nota Graph Tool",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                          // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -24,17 +25,19 @@ const init_phones = ["Generic JM-1 Target", "Nightjar Duality S-"],             
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
-      darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
+      themingEnabled = true,                        // Enable user-toggleable themes (dark mode, contrast mode)
       targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
+      targetRestoreLastUsed = false,				// Restore user's last-used target settings on load
       labelsPosition = "bottom-left",                   // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
+      exportableGraphs = true,                      // Enables export graph button
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
       extraEQBands = 10,                            // Default EQ bands available
-      extraEQBandsMax = 20                         // Max EQ bands available
+      extraEQBandsMax = 20                          // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
@@ -89,6 +92,12 @@ function watermark(svg) {
     // .append("text")
     // .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"graph-name"})
     // .text("danque62.github.io/graph");
+    
+    if ( rig_description ) {
+        wm.append("text")
+            .attrs({x:380, y:-134, "font-size":8, "text-anchor":"end", "class":"rig-description"})
+            .text("Measured on: " + rig_description);
+    }
 }
 
 
@@ -250,6 +259,10 @@ let headerLogoText = "Nota Graph Tool",
     headerLogoImgUrl = "../cringraph-logo.svg",
     headerLinks = [
     {
+        name: "Squig.link",
+        url: "https://nota.squig.link/"
+    },
+    {
         name: "Fossy Graph Tool",
         url: "../graph.html"
     },
@@ -311,3 +324,8 @@ let tutorialDefinitions = [
         `
     }
 ]
+
+// Configure paths to extraEQ plugins here
+let extraEQplugins = [
+    //'./devicePEQ/plugin.js' // Path to one or more "extraEQ" plugins
+];
