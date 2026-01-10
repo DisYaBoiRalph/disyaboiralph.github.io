@@ -1,16 +1,59 @@
 # [Access to the graph tool.](graph)
+# Updates (December 15, 2025 - For a Gift)
+Added IEM:
+- JBL Endurance Run 2
+
+# Updates (Aug 23, 2025 - Amazon & ShenZhenAudio Deals)
+Added IEMs: 
+- Kiwi Ears x crinacle Singolo (sample 2)
+- Truthear Gate (sample 2)
+
+# Updates (July 16, 2025 - Remeasuring)
+Remeasured IEMs:
+- FATFreq x HBB Deuce (sample 2)
+
+# Updates (May 4, 2025 - SM North EDSA Meetup)
+Added IEMs:
+- CrinEar Project Meta
+- DUNU SA6
+- FATFreq x HBB Deuce (sample 2)
+- Kiwi Ears Quintet (sample 2)
+- Moondrop S8
+- "ThieAmalgam Storm"
+
+# Updates (April 20, 2025 - Various Meetups)
+Added IEMs:
+- AFUL Explorer (sample 3 w/ Softears UC tips)
+- Binary x Gizaudio Chopin (sample 4 w/ Softears UC tips)
+- CVJ Demon
+- Campfire Audio Andromeda SS
+- Flipears Aegis (2 samples)
+- Hisenior Mega5P Ultra (sample 2 w/ NF MS42 tips)
+- INM Audio INM2 Stage 2022 CIEM
+- NF Acous RA15
+- Tanchjim Bunny DSP
+- TangZu Wan'er 2
+- Truthear Gate
+- Truthear x crinacle Zero:BLUE 2 (bad unit)
+- ZiiGaat Lush
+
+Added headphones:
+- Focal Elegia
+
 # Updates (March 10, 2025 - Received from Friend & Remeasured Review Unit)
 Remeasured IEM:
 - Kinera Celest Relentless
 
 Added headphones:
 - Fostex T40RP MK2 (w/ aftermarket pads)
+
 # Updates (February 19, 2025 - Received from Friends)
 Added IEMs:
 - Singapore Airlines Bullets
 
 Added headphones: 
 - Denon AH-D600 (driver swapped)
+
 # Updates (November 22, 2024 - November HiFi 2024 Haul)
 Added IEMs:
 - FATFreq BabyFreq
@@ -39,9 +82,11 @@ Added headphones:
 Remeasured headphones
 - Hifiman Ananda V3 (w/ aftermarket pads)
 - Sennheiser HD600 (sample 2 w/ Misodiko pads)
+
 # Updates (November 7, 2024 - I hate life)
 Added headphones:
 - Ugreen HiTune Max5C
+
 # Updates (October 15, 2024 - Remeasuring)
 Added headphones:
 - Philips SHP9500 (sample 2)
@@ -49,6 +94,7 @@ Added headphones:
 Remeasured headphones: 
 - Philips SHP9500 (sample 1)
 - Sennheiser HD58x
+
 # Updates (September 19, 2024 - Random squig)
 Added IEM:
 - Aolon RM-680
@@ -56,14 +102,17 @@ Added IEM:
 # Updates (September 19, 2024 - Random squig)
 Added IEM:
 - Moondrop Quarks (sample 2)
+
 # Updates (September 12, 2024 - Remeasurements)
 Remeasured IEMs:
 - KZ Merga (sample 1)
 - Tanchjim 4U
+
 # Updates (September 9, 2024 - Remeasurements)
 Remeasured IEMs:
 - AFUL Explorer (sample 1)
 - 7Hz Salnotes x crinacle Zero:2
+
 # Updates (August 23, 2024 - Meetup Haul)
 Added IEMs:
 - AFUL Explorer (sample 2)
@@ -80,27 +129,33 @@ Added headphones:
 - Audio-Technica ATH-AVA500
 - Hifiman Ananda V3
 - Sennheiser HD58x
+
 # Updates (August 7, 2024 - Squig at home)
 Added IEM: 
 - Belkin SoundForm Motion (sample 2)
 
 Also corrected labels [to match the "graphs" on the product page](https://www.belkin.com/true-wireless-earbuds/AUC010btWH.html)
+
 # Updates (June 27, 2024 - HiFiGo Review Tour)
 Added IEMs:
 - AFUL Explorer
 - Tanchjim 4U
+
 # Updates (June 27, 2024 - Received unit)
 Added IEM:
 - KZ Merga
+
 # Updates (June 15, 2024 - Received Unit)
 Added headphones:
 - Koss KSC75 (sample 2)
 
 Removed headphones:
 - Koss KSC75 (sample 1)
+
 # Updates (May 30, 2024 - Received Unit)
 Added headphones:
 - some black headphones
+
 # Updates (May 25, 2024 - Visit to Friend's House)
 Added IEM:
 - Hidizs MP145 (2 samples)
@@ -115,12 +170,15 @@ Added headphones:
 - Sennheiser HD700
 - Shure SRH1840
 - Sony MDR-XB700
+
 # Updates (May 24, 2024 - I went to NAIA)
 Added IEM:
 - Symphonium Crimson (sample 2)
+
 # Updates (May 18, 2024 - Quick EggHead Session)
 Added IEM:
 - Simgot EM6L (sample 2 left channel only)
+
 # Updates (May 9, 2024 - Measuring Friends Units)
 Added IEMs:
 - Binary x Gizaudio Chopin (sample 3)
@@ -130,10 +188,12 @@ Remeasured IEMs:
 
 Added headphones:
 - Sennheiser HD560s
+
 # Updates (April 28, 2024 - Quick EggHead session)
 Added headphones:
 - Sennheiser HD600
 - Sennheiser HD800s (S/N: 050258)
+
 # Updates (April 27, 2024 - FAC Meetup @ Starbucks Eton Centris)
 Added IEMs:
 - 64 Audio U4s (sample 2, m12 module, imbalance)
@@ -165,15 +225,18 @@ Added headphones:
 - Sony MDR-Z7
 - Thieaudio Ghost
 - XO BE18
+
 # Updates (April 26, 2024 - NAOS Esports Arena Hangout)
 Added headphones:
 - ASUS TUF Gaming H3
+
 # Updates (April 24, 2024 - EggHead session)
 Added headphones:
 - Audeze MM-100
 - DCA Aeon 2 Closed
 - HEDD Audio HEDDphone TWO
 - Sennheiser HD660S2
+
 # Updates (April 20, 2024 - Fixed Headphone Rig Tolerances & EggHead session)
 Added headphones: 
 - Focal Clear OG
@@ -189,6 +252,7 @@ Remeasured headphones:
 - Samsung Earbuds
 - Sony MDR-Z1R
 - Sennheiser HD202
+
 # Updates (April 18, 2024 - EggHead session)
 Added IEMs:
 - Etymotic ER3XR
@@ -197,6 +261,7 @@ Added IEMs:
 Added headphones:
 - CEntrance Cerene dB
 - Sony MDR-Z1R
+
 # Updates (April 14, 2024 - Graph Tool Overhaul & Headphone Measurements Database)
 This marks the initial commit of headphone measurements.
 Added headphones:
@@ -207,23 +272,28 @@ Added headphones:
 - some Pink headset
 - Samsung Earbuds
 - Sennheiser HD202
+
 # Updates (March 22, 2024 - Research Material)
 Added IEM:
 - Tanchjim Tanya (3 samples)
+
 # Updates (March 21, 2024 - Meetup in UST)
 Added IEMs:
 - Moondrop Aria 2 (sample 2)
 - Tanchjim Oxygen
 - Thieaudio Oracle MK1 (sample 2)
+
 # Updates (March 15, 2024 - EggHead session & Measuring Friend's Unit)
 Added IEM:
 - FiiO FH9
 
 Remeasured IEM:
 - Truthear x crinacle Zero:Red (sample 2)
+
 # Updates (March 11, 2024 - Random squig)
 Added IEM:
 - JBL Tune 110
+
 # Updates (February 26, 2024 - Quick EggHead session & Measuring Friend's Unit)
 Added IEM:
 - 64 Audio Duo
@@ -231,6 +301,7 @@ Added IEM:
 
 Remeasured IEM:
 - 64 Audio U18t
+
 # Updates (February 24, 2024 - FAC Meetup)
 Added IEMs:
 - 64 Audio U4s
@@ -248,13 +319,16 @@ Added IEMs:
 
 Remeasured IEM:
 - DUNU SA6 MK2
+
 # Updates (February 22, 2024 - HiFiGo Review Tour & Quick Visit to help someone)
 Added IEM:
 - Kinera Celest Plutus Beast
 - Bang & Olufsen Beoplay EX (left channel only)
+
 # Updates (February 17, 2024 - BL03 modding)
 Remeasured IEM:
 - BLON BL03 (sample 1, now with mods)
+
 # Updates (February 15, 2024 - Impromptu meetup @ EggHead)
 Added IEMs:
 - CCA Rhapsody
@@ -272,6 +346,7 @@ Added IEMs:
 
 Remeasured IEM:
 - Simgot EA500
+
 # Updates (February 06, 2024 - EggHead demo session w/ Brownie)
 Added IEMs:
 - Sonic Memory SM1
@@ -282,25 +357,31 @@ Added IEMs:
 Remeasured IEM:
 - TangZu Nezha (corrected; apparently the same unit in The Grand Lason R2)
 - Letshuoer Cadenza 12 (now with Spinfits CP145 tips and Divinus Velvet tips)
+
 # Updates (January 29, 2024 - Random squig)
 Added IEM:
 - Logitech G333
+
 # Updates (January 23, 2024 - EggHead demo session)
 Added IEMs:
 - Hisenior Mega5EST
 - Hisenior Mega5P Ultra
+
 # Updates (January 22, 2024 - Random squig)
 Added IEM:
 - TIN T2 (sample 2)
+
 # Updates (January 12, 2024 - EggHead demo session w/ Brownie and advc)
 Added IEMs: 
 - Audiosense DT200
 - Creative Aurvana Ace 2
 - Nightjar Singularity
+
 # Updates (December 30, 2023 - HiFiGo Review Tour)
 Added IEMs:
 - AFUL MagicOne (sample 2)
 - Belkin SoundForm Motion
+
 # Updates (December 12, 2023 - Own IEM Update)
 Added IEM:
 - 7Hz Salnotes x crinacle Zero:2
@@ -313,12 +394,14 @@ Remeasured IEMs:
 - QKZ HBB (sample 1)
 - Truthear Hola
 - Xiaomi Mi In-Ear Headphones Basic
+
 # Updates (November 25, 2023 - HiFiGo Review Tour)
 Added IEM:
 - Binary x Gizaudio Chopin (sample 2)
 
 Remeasrued IEM:
 - Simgot EW200 (sample 2)
+
 # Updates (November 24, 2023 - Obie & RamminRam @ EggHead)
 Added IEMs: (16 IEMs)
 - Audeze iSine 20 (sample 2)
@@ -337,9 +420,11 @@ Added IEMs: (16 IEMs)
 - SOUNDPEATS Life
 - Shozy Black Hole
 - Truthear x crinacle Zero:Red (sample 4 w/ Spring tips)
+
 # Updates (November 22, 2023 - Simgot Review Tour)
 Added IEM:
 - Simgot EW200 (sample 2)
+
 # Updates (November 12, 2023 - November HiFi Show Day 2)
 Added IEMs: (18 IEMs)
 - CCA Duo
@@ -360,6 +445,7 @@ Added IEMs: (18 IEMs)
 - Tripowin x HBB Olina (double-filter mod)
 - Tripowin x HBB Kailua
 - Truthear x crinacle Zero:Red (sample 3)
+
 # Updates (November 11, 2023 - November HiFi Show Day 1)
 Added IEMs: (17 IEMs)
 - AFUL MagicOne
@@ -377,9 +463,11 @@ Added IEMs: (17 IEMs)
 - SeeAudio Yume II
 - Tanchjim Hana 2021 (2 samples)
 - TangZu Zetian Wu
+
 # Updates (November 07, 2023 - For Selling)
 Remeasured IEM:
 - Xiaomi Mi Noise Cancelling 3.5mm
+
 # Updates (October 25, 2023 - Measuring Friend's Units)
 Added IEMs:
 - CCA CRA (sample 2)
@@ -388,12 +476,15 @@ Added IEMs:
 
 Remeasured IEM:
 - 7Hz Salnotes Zero (sample 1)
+
 # Updates (October 25, 2023 - Mail call)
 Added IEM:
 - Truthear Hola
+
 # Updates (October 19, 2023 - Random Squig)
 Added IEM:
 - Truthear x crinacle Zero:Red (sample 2)
+
 # Updates (October 15, 2023 - Grand Lason R2)
 Added IEMs:
 - HZSound Heart Mirror
@@ -409,26 +500,31 @@ Added IEMs:
 - TangZu Nezha
 - TangZu Xuanwu Gate (Prototype)
 - Thieaudio Oracle MK1
+
 # Updates (October 14, 2023 - Mini Meetup)
 Added IEMs:
 - AKG N5005
 - AFUL Performer 8 
 - Binary x Gizaudio Chopin
 - Thieaudio Hype 2
+
 # Updates (October 05, 2023 - Random Squig)
 Added IEMs:
 - Moondrop Blessing 2
 - SOUNDPEATS Truengine SE
+
 # Updates (September 28, 2023 - Random Squig)
 Added IEMs:
 - TangZu Wan'er (sample 2)
 - QKZ HBB (sample 2)
+
 # Updates (September 22, 2023 - Random Stroll)
 Added IEMs:
 - OnePlus Buds Pro 2
 
 Remeasured IEMs:
 - Xiaomi Redmi Buds 4
+
 # Updates (September 16, 2023 - FAC Grand Meet 2023)
 Added IEMs:
 - 7Hz Timeless (sample 2)
@@ -442,9 +538,11 @@ Added IEMs:
 Remeasured IEMs:
 - Sennheiser IE600
 - Moondrop Stellaris (sample 2) with a bunch of different configurations.
+
 # Updates (September 7, 2023 - Mail call)
 Added IEM:
 - KZ Krila
+
 # Updates (September 2, 2023 - Measuring Friend's Units)
 Added IEM:
 - Moondrop KATO (sample 2)
@@ -452,29 +550,37 @@ Added IEM:
 
 Remeasured IEM:
 - Letshuoer S12 (sample 2)
+
 # Updates (August 31, 2023 - Random stroll)
 Added IEM:
 - Xiaomi Redmi Buds 4
+
 # Updates (August 27, 2023 - EggHead demo session)
 Added IEM:
 - Sony IER-M7
 - Sony IER-M9
 - Sony WF-1000XM5 (sample 2)
+
 # Updates (August 26, 2023 - Random squig)
 Added IEM:
 - CCA CRA+ (i hope it's not stealth revised)
+
 # Updates (August 19, 2023 - Random stroll)
 Added IEM:
 - Sony WF-1000XM5
+
 # Updates (August 12, 2023 - RamminRam @ EggHead)
 Added IEM:
 - Audeze iSine 20 (and w/ Cipher cable)
+
 # Updates (August 09, 2023 - Mail call)
 Added IEM:
 - Moondrop Space Travel (and all 3 EQ profiles)
+
 # Updates (July 26, 2023 - Mail call)
 Added IEM:
 - Moondrop Quarks DSP (sample 3)
+
 # Updates (July 10, 2023 - Mail call)
 Added IEM:
 - Truthear x crinacle Zero:Red
@@ -483,9 +589,11 @@ Remeasured IEM:
 - Truthear x crinacle Zero
     - only stock tips
     - measured with various impedance adapters
+
 # Updates (May 28, 2023 - EggHead demo session)
 Added IEM:
 - Letshuoer EJ07M
+
 # Updates (May 18, 2023 - EggHead demo session w/ Brownie)
 Added IEMs:
 - 7Hz Salnotes x crinacle Dioko (sample 2 w/ Ostry 200 tips)
@@ -495,15 +603,19 @@ Added IEMs:
 
 Remeasured IEM:
 - Moondrop SSR (added measurement w/ Softears UC tips)
+
 # Updates (May 17, 2023 - Random stroll)
 Added IEM:
 - Sony LinkBuds S (sample 2)
+
 # Updates (May 16, 2023 - Random stroll)
 Added IEM:
 - Anker Soundcore Liberty 4
+
 # Updates (May 13, 2023 - Random squig)
 Added IEM:
 - KZ EDX
+
 # Updates (May 11, 2023 - EggHead demo session)
 Added IEM:
 - Etymotic ER2XR
@@ -511,12 +623,15 @@ Added IEM:
 - Letshuoer Cadenza 12
 - Letshuoer S12
 - Letshuoer S12 Pro
+
 # Updates (May 09, 2023 - Random stroll)
 Added IEM:
 - JBL Tune 130NC
+
 # Updates (May 07, 2023 - Random stroll)
 Added IEM:
 - realme Buds T100
+
 # Updates (May 06, 2023 - EggHead demo session)
 Added IEMs:
 - 64 Audio tia Trio
@@ -529,12 +644,14 @@ Added IEMs:
 - Sony LinkBuds S
 - Truthear Zero (sample 2 w/ Spring tips)
 - Westone Pro X10
+
 # Updates (April 30, 2023 - EggHead demo session)
 Added IEMs:
 - Campfire Audio Andromeda 2020
 - Sennheiser IE200
 - Sennheiser IE600
 - Sony IER-Z1R
+
 # Updates (April 29, 2023 - FAC Meetup @ BGC)
 Added IEMs:
 - 64 Audio U12
@@ -553,6 +670,7 @@ Added IEMs:
 - Symphonium Meteor
 - Thieaudio Monarch MK2
 - Truthear Hexa
+
 # The In-Ear Graphing Library
 If you're not weirdly obsessed with headphones you can leave at any time.
 

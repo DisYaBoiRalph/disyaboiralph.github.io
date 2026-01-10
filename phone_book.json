@@ -157,7 +157,8 @@
                     "AFUL Explorer Velvet",
                     "AFUL Explorer S2",
                     "AFUL Explorer S2 Velvet",
-                    "AFUL Explorer S2 Velvet Wide"
+                    "AFUL Explorer S2 Velvet Wide",
+                    "AFUL Explorer S3 UC"
                 ],
                 "suffix": [
                     "S1",
@@ -171,7 +172,8 @@
                     "S1 w/ Divinus Velvet tips",
                     "S2",
                     "S2 w/ Divinus Velvet tips",
-                    "S2 w/ Divinus Velvet Wide tips"
+                    "S2 w/ Divinus Velvet Wide tips",
+                    "S3 w/ Softears UC tips"
                 ],
                 "reviewScore": "6.88/10",
                 "price": "$120",
@@ -349,13 +351,15 @@
                     "Binary x Gizaudio Chopin S2",
                     "Binary x Gizaudio Chopin S1",
                     "Binary x Gizaudio Chopin S3",
-                    "Binary x Gizaudio Chopin S3 UC"
+                    "Binary x Gizaudio Chopin S3 UC",
+                    "Binary x Gizaudio Chopin S4 UC"
                 ],
                 "suffix": [
                     "S2",
                     "S1",
                     "S3",
-                    "S3 w/ Softears UC tips"
+                    "S3 w/ Softears UC tips",
+                    "S4 w/ Softears UC tips"
                 ],
                 "reviewScore": "7.34/10",
                 "price": "$200",
@@ -400,6 +404,10 @@
                 "file": "Campfire Audio Andromeda 2020",
                 "price": "$1100",
                 "reviewScore": "5.22/10"
+            },
+            {
+                "name": "Andromeda SS",
+                "file": "Campfire Audio Andromeda SS"
             },
             {
                 "name": "Honeydew",
@@ -499,6 +507,24 @@
         ]
     },
     {
+        "name": "CrinEar",
+        "phones": [
+            {
+                "name": "Project Meta",
+                "file": "CrinEar Project Meta"
+            }
+        ]
+    },
+    {
+        "name": "CVJ",
+        "phones": [
+            {
+                "name": "Demon",
+                "file": "CVJ Demon"
+            }
+        ]
+    },
+    {
         "name": "DITA",
         "phones": [
             {
@@ -512,6 +538,17 @@
     {
         "name": "DUNU",
         "phones": [
+            {
+                "name": "SA6",
+                "file": [
+                    "DUNU SA6 OFF",
+                    "DUNU SA6 ON"
+                ],
+                "suffix": [
+                    "(OFF)",
+                    "(ON)"
+                ]
+            },
             {
                 "name": "SA6 MK2",
                 "file": [
@@ -598,11 +635,21 @@
                 "collab": "HBB",
                 "file": [
                     "FATFreq x HBB Deuce",
-                    "FATFreq x HBB Deuce IMP"
+                    "FATFreq x HBB Deuce IMP",
+                    "FATFreq x HBB Deuce S2",
+                    "FATFreq x HBB Deuce S2 10 Ohm",
+                    "FATFreq x HBB Deuce S2 25 Ohm",
+                    "FATFreq x HBB Deuce S2 50 Ohm",
+                    "FATFreq x HBB Deuce S2 75 Ohm"
                 ],
                 "suffix": [
-                    "",
-                    "w/ impedance adapter"
+                    "S1",
+                    "S1 w/ impedance adapter",
+                    "S2",
+                    "S2 w/ Bass+ (10 ohm) adapter",
+                    "S2 w/ 25 ohm adapter",
+                    "S2 w/ 50 ohm adapter",
+                    "S2 w/ 75 ohm adapter"
                 ]
             },
             {
@@ -697,6 +744,25 @@
     {
         "name": "Flipears",
         "phones": [
+            {
+                "name": "Aegis",
+                "file": [
+                    "Flipears Aegis S1",
+                    "Flipears Aegis S1 Baroque",
+                    "Flipears Aegis S1 ASMR",
+                    "Flipears Aegis S1 Velvet Wide",
+                    "Flipears Aegis S1 S&S",
+                    "Flipears Aegis S2 ASMR"
+                ],
+                "suffix": [
+                    "S1 ",
+                    "S1 w/ Eletech Baroque tips",
+                    "S1 w/ Azla SednaEarfit MAX ASMR tips",
+                    "S1 w/ Divinus Velvet Wide tips",
+                    "S1 w/ DUNU S&S tips",
+                    "S2 w/ Azla SednaEarfit MAX ASMR tips"
+                ]
+            },
             {
                 "name": "Aether",
                 "file": [
@@ -838,6 +904,7 @@
                     "Hisenior Mega5P Ultra S2 Sancai Wide",
                     "Hisenior Mega5P Ultra S2 Sancai Narrow",
                     "Hisenior Mega5P Ultra S2 Velvet Wide",
+                    "Hisenior Mega5P Ultra S2 NF MS42",
                     "Hisenior Mega5P Ultra Velvet"
                 ],
                 "suffix": [
@@ -845,6 +912,7 @@
                     "S2 w/ TangZu Sancai Wide tips",
                     "S2 w/ TangZu Sancai Narrow tips",
                     "S2 w/ Divinus Velvet Wide tips",
+                    "S2 w/ NF Acous MS42 tips",
                     "(left channel only) w/ Divinus Velvet tips"
                 ],
                 "reviewScore": "N/A (haven't tried)",
@@ -896,8 +964,12 @@
         "name": "INM Audio",
         "phones": [
             {
-                "name": "INM2 Stage",
+                "name": "INM2 Stage 2024",
                 "file": "INM Audio INM2 Stage"
+            },
+            {
+                "name": "INM2 Stage 2022 CIEM",
+                "file": "INM Audio INM2 Stage 2022 CIEM"
             },
             {
                 "name": "INM3",
@@ -997,6 +1069,11 @@
     {
         "name": "JBL",
         "phones": [
+            {
+                "name": "Endurance Run 2",
+                "file": "JBL Endurance Run 2",
+                "price": "$20"
+            },
             {
                 "name": "Tune 110",
                 "file": "JBL Tune 110",
@@ -1148,7 +1225,14 @@
             },
             {
                 "name": "Quintet",
-                "file": "Kiwi Ears Quintet",
+                "file": [
+                    "Kiwi Ears Quintet",
+                    "Kiwi Ears Quintet S2"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2"
+                ],
                 "price": "$220",
                 "reviewScore": "7.04/10",
                 "shopLink": "https://www.linsoul.com/products/kiwi-ears-quintet"
@@ -1156,7 +1240,16 @@
             {
                 "name": "Singolo",
                 "collab": "crinacle",
-                "file": "Kiwi Ears x crinacle Singolo",
+                "file": [
+                    "Kiwi Ears x crinacle Singolo",
+                    "Kiwi Ears x crinacle Singolo S2 White",
+                    "Kiwi Ears x crinacle Singolo S2 Black"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2 w/ stock white eartips",
+                    "S2 w/ stock black eartips"
+                ],
                 "reviewScore": "6.16/10",
                 "shopLink": "https://hangout.audio/products/singolo"
             }
@@ -1582,6 +1675,25 @@
                 "shopLink": ""
             },
             {
+                "name": "S8",
+                "file": [
+                    "Moondrop S8",
+                    "Moondrop S8 Spring",
+                    "Moondrop S8 CP145",
+                    "Moondrop S8 W1",
+                    "Moondrop S8 Velvet",
+                    "Moondrop S8 Type E"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spring tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips",
+                    "w/ Divinus Velvet tips",
+                    "w/ Final Type E tips"
+                ]
+            },
+            {
                 "name": "Space Travel",
                 "file": [
                     "Moondrop Space Travel S1",
@@ -1696,6 +1808,15 @@
                 ],
                 "reviewScore": "4.00/10",
                 "shopLink": "https://www.linsoul.com/products/nd-x12"
+            }
+        ]
+    },
+    {
+        "name": "NF Acous",
+        "phones": [
+            {
+                "name": "RA15",
+                "file": "NF Acous RA15"
             }
         ]
     },
@@ -2325,6 +2446,27 @@
                 "shopLink": "https://hifigo.com/products/tanchjim-4u"
             },
             {
+                "name": "Bunny DSP",
+                "file": [
+                    "Tanchjim Bunny DSP No EQ",
+                    "Tanchjim Bunny DSP Default",
+                    "Tanchjim Bunny DSP Nature",
+                    "Tanchjim Bunny DSP Balanced",
+                    "Tanchjim Bunny DSP Popular",
+                    "Tanchjim Bunny DSP Instrument",
+                    "Tanchjim Bunny DSP Custom EQ"
+                ],
+                "suffix": [
+                    "(No EQ)",
+                    "(Default preset)",
+                    "(Nature preset)",
+                    "(Balanced preset)",
+                    "(Popular preset)",
+                    "(Instrument preset)",
+                    "(Bithoven preset)"
+                ]
+            },
+            {
                 "name": "Hana 2021",
                 "file": [
                     "Tanchjim Hana 2021",
@@ -2434,6 +2576,17 @@
                 "price": "$20",
                 "reviewScore": "5.54/10",
                 "shopLink": "https://www.linsoul.com/products/tangzu-waner-s-g"
+            },
+            {
+                "name": "Wan'er 2",
+                "file": [
+                    "TangZu Waner 2",
+                    "TangZu Waner 2 Sancai"
+                ],
+                "suffix": [
+                    "",
+                    "w/ TangZu Sancai tips"
+                ]
             },
             {
                 "name": "Xuan Nv",
@@ -2589,6 +2742,19 @@
         "name": "Truthear",
         "phones": [
             {
+                "name": "Gate",
+                "file": [
+                    "Truthear Gate",
+                    "Truthear Gate S2",
+                    "Truthear Gate S2 Wide"
+                ],
+                "suffix": [
+                    "S1",
+                    "S2",
+                    "S2 w/ stock wide tips"
+                ]
+            },
+            {
                 "name": "Hexa",
                 "file": [
                     "Truthear Hexa",
@@ -2647,6 +2813,18 @@
                 "price": "$50",
                 "reviewScore": "5.24/10",
                 "shopLink": "https://hangout.audio/products/truzero"
+            },
+            {
+                "name": "Zero:Blue 2",
+                "collab": "crinacle",
+                "file": [
+                    "Truthear x crinacle Zero Blue 2",
+                    "Truthear x crinacle Zero Blue 2 Both"
+                ],
+                "suffix": [
+                    "(left channel only)",
+                    "(both channels)"
+                ]
             },
             {
                 "name": "Zero:Red",
@@ -2738,6 +2916,37 @@
                 "file": "ZiiGaat Nuo",
                 "reviewScore": "5.34/10",
                 "shopLink": "https://www.linsoul.com/products/ziigaat-nuo"
+            },
+            {
+                "name": "Lush",
+                "file": [
+                    "ZiiGaat Lush UC"
+                ],
+                "suffix": [
+                    "w/ Softears UC tips"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Amalgam",
+        "phones": [
+            {
+                "name": "Storm",
+                "file": [
+                    "ThieAmalgam Storm",
+                    "ThieAmalgam Storm Spring",
+                    "ThieAmalgam Storm CP145",
+                    "ThieAmalgam Storm W1",
+                    "ThieAmalgam Storm Velvet"
+                ],
+                "suffix": [
+                    "",
+                    "w/ Spring tips",
+                    "w/ Spinfits CP145 tips",
+                    "w/ Spinfits W1 tips",
+                    "w/ Divinus Velvet tips"
+                ]
             }
         ]
     },
